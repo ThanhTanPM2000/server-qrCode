@@ -6,7 +6,7 @@ module.exports = function (app) {
   app.use(helmet());
   app.use(
     cors({
-      origin: "http://localhost:3000",
+      origin: "https://vlu-qrcode-client.herokuapp.com/",
     })
   );
   app.use(compression());
